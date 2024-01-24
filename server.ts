@@ -2,8 +2,8 @@ import express from "express";
 import mongoose from "mongoose";
 import morgan from "morgan";
 import dotenv from "dotenv"
-import user from './routes/user/userindex.routes'
-import admin from'./routes/admin/adminindex.routes'
+import user from './routes/user/index.routes'
+import admin from'./routes/admin/index.routes'
 
 dotenv.config()
 
